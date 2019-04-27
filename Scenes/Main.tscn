@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
+
+[node name="Node" type="Node"]
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 454.263, 266.419 )
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+current = true
+zoom = Vector2( 0.5, 0.5 )
+smoothing_enabled = true
+drag_margin_left = 0.0
+drag_margin_top = 0.0
+drag_margin_right = 0.0
+drag_margin_bottom = 0.0
+
